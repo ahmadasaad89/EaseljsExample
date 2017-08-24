@@ -16,13 +16,13 @@ function init() {
     BoxesEventsList = [];
     startShuffle = false;
     manifest = [
-        {src: "barrel_destroyed.png", id: "box"},
+        {src: "barrelDestroyed.png", id: "box"},
         {src: "coin.png", id: "coin"},
-        {src: "reset_button.png", id: "reset"},
-        {src: "sky_1.png", id: "sky"},
-        {src: "ground_1.png", id: "ground"},
-        {src: "clouds_1.png", id: "clouds"},
-        {src: "clouds_2.png", id: "clouds1"}
+        {src: "resetButton.png", id: "reset"},
+        {src: "sky1.png", id: "sky"},
+        {src: "ground1.png", id: "ground"},
+        {src: "clouds1.png", id: "clouds"},
+        {src: "clouds2.png", id: "clouds1"}
     ];
 
     loader = new createjs.LoadQueue(false);
