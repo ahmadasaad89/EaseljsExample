@@ -27,7 +27,7 @@ function init() {
 
     loader = new createjs.LoadQueue(false);
     loader.addEventListener("complete", handleComplete);
-    loader.loadManifest(manifest, true, "_assets/art/");
+    loader.loadManifest(manifest, true, "assets/art/");
 
 }
 /**
